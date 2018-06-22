@@ -1,7 +1,9 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 
-import Indicators from './Indicators';
+// import Indicators from './Indicators';
+import PeriodicTable from './Periodictable'
+
 
 export default class Lesson extends React.Component {
   static propTypes = {
@@ -26,7 +28,8 @@ export default class Lesson extends React.Component {
   render() {
     return (
       <div>
-          <Indicators />
+          <PeriodicTable/>
+
       </div>
     );
   }
